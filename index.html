@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Fonte Poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- importação de estilos -->
+        <link rel="stylesheet" href="./styles.css" />
+
+        <title>Gabriel Montenegro - Portfólio Pessoal</title>
+    </head>
+    <body>
+        <!-- Cabeçalho com links de navegação entre a página -->
+        <header>
+            <!-- voltar para o início da página -->
+            <a href="#">GABRIEL MONTENEGRO</a>
+
+            <!-- menu de navegação do header -->
+            <nav>
+                <a href="#about">SOBRE MIM</a>
+                <a href="#history">FORMAÇÃO</a>
+                <a href="#portfolio">PORTFÓLIO</a>
+                <a href="#contact">CONTATO</a>
+            </nav>
+        </header>
+
+        <!-- conteúdo principal da página -->
+        <main>
+            <!-- seção de apresentação -->
+            <section class="section">
+                <h1 class="title">PORTFÓLIO PESSOAL</h1>
+                <p class="description">
+                    Seja bem vindo (a) ao meu Portfólio Pessoal. Aqui, você vai
+                    saber um pouco mais sobre mim, tanto pessoal quanto
+                    profissionalmente.
+                </p>
+            </section>
+
+            <!-- seção sobre -->
+            <section class="section" id="about">
+                <h2 class="subtitle">SOBRE MIM</h2>
+
+                <div>
+                    <p class="description">
+                        Olá, me chamo Gabriel e tenho 23 anos. Resido em
+                        Jaboatão dos Guararapes, uma cidade vizinha a capital de
+                        Pernambuco.
+                    </p>
+                    <p class="description">
+                        Gosto muito de cozinhar no meu tempo livre. Também gosto
+                        de passear com minha cachorrinha e assistir
+                        filmes/séries. Esses são meus hobbies no momento.
+                    </p>
+                    <p class="description">
+                        Atualmente trabalho como Desenvolvedor Front End na
+                        empresa Mestres da Web. Crio interfaces dinâmicas e
+                        responsivas para diversas empresas, focando sempre na
+                        qualidade e reaproveitamento do código. Trabalho com
+                        NextJs e Typescript na maioria dos projetos.
+                    </p>
+                </div>
+            </section>
+
+            <!-- seção formação -->
+            <section class="section" id="history">
+                <h2 class="subtitle">FORMAÇÃO</h2>
+                <div>
+                    <p class="description">
+                        No momento, estou me formando em Engenharia de Software
+                        na UNINTER.
+                    </p>
+                    <p class="description">
+                        Já cursei 2 anos de Engenharia da Computação na UPE,
+                        Universidade de Pernambuco.
+                    </p>
+                    <p class="description">
+                        Também já adquiri muitos conhecimentos técnicos através
+                        de cursos, principalmente voltados para Desenvolvimento
+                        Web.
+                    </p>
+                    <p class="description">
+                        Possuo bom entendimento e comunicação em inglês,
+                        adquiridos conversando com amigos e assistindo conteúdos
+                        em inglês.
+                    </p>
+                </div>
+            </section>
+
+            <!-- seção portfólio -->
+            <section class="section" id="portfolio">
+                <h2 class="subtitle">PORTFÓLIO</h2>
+                <div>
+                    <p class="description">
+                        Você pode visualizar alguns de meus projetos pessoais
+                        realizados nos últimos anos através do
+                        <a
+                            href="https://github.com/isgabriel"
+                            target="_blank"
+                            class="linksPortfolio"
+                            >meu Github (clique aqui)</a
+                        >
+                        ou do
+                        <a
+                            href="https://gabriel-montenegro-portfolio.vercel.app"
+                            target="_blank"
+                            class="linksPortfolio"
+                            >meu site pessoal (clique aqui)</a
+                        >.
+                    </p>
+                    <p class="description">
+                        Os projetos desenvolvidos no trabalho estão em
+                        repositórios privados no Github, com acesso restrito
+                        apenas a colaboradores.
+                    </p>
+                </div>
+            </section>
+
+            <!-- seção contato -->
+            <section class="section" id="contact">
+                <h2 class="subtitle">CONTATO</h2>
+                <p class="description">
+                    Caso queira entrar em contato comigo para assuntos pessoais
+                    ou profissionais, preencha o formulário abaixo com as
+                    informações:
+                </p>
+
+                <form>
+                    <div class="divForm">
+                        <label for="name">NOME</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Digite seu nome completo..."
+                        />
+                    </div>
+                    <div class="divForm">
+                        <label for="email">EMAIL</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Digite seu email..."
+                        />
+                    </div>
+                    <div class="divForm">
+                        <label for="message">MENSAGEM</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Digite sua mensagem..."
+                        ></textarea>
+                    </div>
+
+                    <button>ENVIAR</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- footer/rodapé -->
+        <footer>
+            Gabriel Fragoso Montenegro | Todos os direitos reservados
+        </footer>
+    </body>
+</html>
